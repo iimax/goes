@@ -4,11 +4,11 @@ import "github.com/kataras/iris"
 
 func main() {
 	app := iris.New()
-
+	
 	// 从 views文件夹加载所有模版
 	// 要求扩展名为 .html，并且使用 'html/template' 包来解析模版内容
 	app.RegisterView(iris.HTML("./public", ".html"))
-
+	//app.
 	// GET
 	app.Get("/", func(ctx iris.Context) {
 		// 绑定数据
