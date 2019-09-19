@@ -10,6 +10,7 @@ require (
 	github.com/kataras/iris v0.0.0-20190916050704-df882273e219
 	github.com/klauspost/compress v1.8.3 // indirect
 	github.com/klauspost/cpuid v1.2.1 // indirect
+	github.com/olivere/elastic/v7 v7.0.6
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	golang.org/x/crypto v0.0.0-20190911031432-227b76d455e7 // indirect
 )
